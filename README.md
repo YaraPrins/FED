@@ -36,7 +36,7 @@ Mijn focus ligt meer op responsive, maar ik wil eigenlijk voor beide gaan.
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.dndbeyond.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
