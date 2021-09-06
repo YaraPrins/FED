@@ -40,11 +40,13 @@ https://www.dndbeyond.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina van DndBeyond
-<img src="images/Screenshot_20210906-213641.jpg" width="375px" alt="homepagina van dndbeyond">
+
+  <img src="images/Screenshot_20210906-213641.jpg" width="375px" alt="homepagina van dndbeyond">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Hoofdpagina Eigen Karakter 
-<img src="images/Screenshot_20210906-213713.jpg" width="375px" alt="hoofdpagina eigen karakter">
+
+  <img src="images/Screenshot_20210906-213713.jpg" width="375px" alt="hoofdpagina eigen karakter">
 
  
 </details>
