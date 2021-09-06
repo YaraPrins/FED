@@ -39,11 +39,11 @@ Mijn focus ligt meer op responsive, maar ik wil eigenlijk voor beide gaan.
 https://www.dndbeyond.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
+Homepagina van DndBeyond
 <img src="images/Screenshot_20210906-213641.jpg" width="375px" alt="homepagina van dndbeyond">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
+Hoofdpagina Eigen Karakter 
 <img src="images/Screenshot_20210906-213713.jpg" width="375px" alt="hoofdpagina eigen karakter">
 
  
