@@ -1,5 +1,30 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;  
 }
 
+body {
+  background-color: #444;
+}
+
+header {
+  width: 100vw;
+  height: 64px;
+  position: static;
+  background: #000;
+  border-bottom: 1px solid #e40712; 
+}
+
+header div {
+  background: #000;
+  border-bottom: 1px solid #e40712;
+  margin: 0 4rem;
+  height: 64px;
+}
+
+header a img {
+  padding: 10px;
+  max-width: 150px;
+}
