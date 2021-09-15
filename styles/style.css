@@ -6,8 +6,28 @@
 }
 
 body {
-  background-color: #444;
+  --colorBlue: #1C9AEF;
+  --colorBackground: #444;
+  --colorPurple: #8B4BCC;
+  --colorGreen: #6AA120;
+  --colorOrange: #F05523;
+  --colorRed: #BC0F0F;
+
+  --colorNavbar: #121212;
+  --colorFooterTop: #242527;
+  --colorFooterBottom: #191A1B;
+
+  background-color: var(--colorBackground);
 }
+
+
+/* 
+=========================================================
+=========================================================
+===============         HEADER          =================
+=========================================================
+=========================================================
+*/
 
 header {
   width: 100vw;
@@ -20,11 +40,73 @@ header {
 header div {
   background: #000;
   border-bottom: 1px solid #e40712;
-  margin: 0 4rem;
   height: 64px;
 }
 
 header a img {
   padding: 10px;
-  max-width: 150px;
+  max-width: 140px;
+}
+
+
+/* 
+=========================================================
+=========================================================
+===============          MAIN           =================
+=========================================================
+=========================================================
+*/
+
+/* 
+===========
+=== NAV ===
+===========
+*/
+
+main nav {
+  background-image: url(../images/img-gen/tasha_homepage.jpg);
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-size: cover;
+
+}
+
+main nav h2 {
+  font-family: "Roboto Condensed", roboto, helvetica, sans-serif;
+}
+
+main nav ul li:nth-of-type(1) h2 {
+  color: var(--colorBlue);
+}
+
+main nav ul li:nth-of-type(2) h2 {
+  color: var(--colorPurple);
+}
+
+main nav ul li:nth-of-type(3) h2 {
+  color: var(--colorGreen);
+}
+
+main nav ul li:nth-of-type(4) h2 {
+  color: var(--colorOrange);
+}
+
+main nav a {
+  text-decoration: none;
+}
+
+main .png-nav {
+  max-width: 260px;
+  padding: 20px;
+}
+
+/* ================
+      tijdelijk
+   ================ */
+a {
+  color: white;
+}
+
+.mega-menu {
+  visibility: hidden;
 }
