@@ -238,6 +238,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.dndbeyond.com/
 2. https://www.dndbeyond.com/profile/Faynore/characters/17074841
-3. ...
+3. https://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers/14271049#14271049
+4. https://stackoverflow.com/questions/47095596/body-overflow-x-hidden-breaks-position-sticky
+5. https://newbedev.com/position-sticky-not-working-with-body-overflow-x-hidden
+6. 
 
 </details>
