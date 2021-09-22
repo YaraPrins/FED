@@ -1,6 +1,14 @@
+/* 
+========================================================================
+========================================================================
+=================          ALGEMENE STYLING          ===================
+========================================================================
+========================================================================
+*/
+
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;  
 }
@@ -12,7 +20,9 @@ body {
   --colorGreen: #6AA120;
   --colorOrange: #F05523;
   --colorRed: #BC0F0F;
+  --colorGrey: #979aa4;
 
+  --colorHamburgerMenu: #b9b9b9;
   --colorNavbar: #121212;
   --colorFooterTop: #242527;
   --colorFooterBottom: #191A1B;
@@ -20,93 +30,590 @@ body {
   background-color: var(--colorBackground);
 }
 
+h1, h2, h3, h4, a, p, input[type=button], li {
+  font-family: "Roboto Condensed", roboto, helvetica, sans-serif;
+}
+
+header, main, footer {
+  overflow-x: hidden;
+}
+
+/* overflow-x: hidden; */
 
 /* 
-=========================================================
-=========================================================
-===============         HEADER          =================
-=========================================================
-=========================================================
+======================
+======================
+====  TIJDELIJK ======
+======================
+======================
 */
 
-header {
+.page1 a,
+.page2 a {
+  color: black;
+  text-decoration: none;
+}
+  
+.page1 .mega-menu,
+.page1 input[type=button],
+.page2 .mega-menu,
+.page2 input[type=button] {
+  visibility: hidden;
+}
+  
+.page1 img,
+.page2 img {
+  max-width: 90vw;
+}
+
+
+/* 
+===================================================================================================================
+===================================================================================================================
+===================================================================================================================
+==========================================           PAGE 1           ============================================= 
+===================================================================================================================
+===================================================================================================================
+===================================================================================================================
+*/
+
+
+/* 
+========================================================================
+========================================================================
+=====================          HEADER           ========================
+========================================================================
+========================================================================
+*/
+
+/* ====== header balk + logo ====== */
+
+header,
+header div {
   width: 100vw;
-  height: 64px;
-  position: static;
-  background: #000;
-  border-bottom: 1px solid #e40712; 
+  height: 50px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: var(--colorNavbar);
+  border-bottom: 1px solid #e40712;
+  z-index: 999;
 }
 
 header div {
-  background: #000;
-  border-bottom: 1px solid #e40712;
-  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+header a {
+  width: 120px;
 }
 
 header a img {
   padding: 10px;
-  max-width: 140px;
+  width: 120px;
+  min-width: 110px;
+}
+
+/* ====== hamburger menu icon ====== */
+header div div {
+  cursor: pointer;
+  padding: 1em;
+  position: relative;
+  top: 1px;
+  right: .5em;
+  width: 3.5em;
+  height: 3em;
+  border-bottom: none;
+  border-left: 1px solid var(--colorBackground);
+  z-index: 1000;
+}
+header div div a {
+  content: '';
+  position: absolute;
+  left: 1em;
+  top: 1em;
+  background: var(--colorHamburgerMenu);
+  width: 24px;
+  height: 2px;
+  box-shadow: 
+    0 8px 0 0 var(--colorHamburgerMenu),
+    0 16px 0 0 var(--colorHamburgerMenu);
+    z-index: 1000;
+}
+
+/* 
+========================================================================
+========================================================================
+======================          MAIN           =========================
+========================================================================
+========================================================================
+*/
+
+.page1 main {
+  background-image: url(../images/background_texture.png);
+  height: 225em;
+  overflow-y: hidden;
+}
+
+.page1 main section {
+  margin: 16px 8px 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px grey ;
+}
+
+.page1 main section ul{
+  list-style: none;
 }
 
 
-/* 
-=========================================================
-=========================================================
-===============          MAIN           =================
-=========================================================
-=========================================================
+
+/*
+======================
+======================
+=======  NAV =========
+======================
+======================
 */
 
-/* 
-===========
-=== NAV ===
-===========
-*/
 
-main nav {
+/* ====== achtergrond afbeelding main nav ====== */
+.page1 main nav {
   background-image: url(../images/img-gen/tasha_homepage.jpg);
   background-position-x: 50%;
   background-position-y: 100%;
   background-size: cover;
-
+  height: 525px;
 }
 
-main nav h2 {
-  font-family: "Roboto Condensed", roboto, helvetica, sans-serif;
-}
 
-main nav ul li:nth-of-type(1) h2 {
-  color: var(--colorBlue);
+/* ============ items main nav ============ */
+.page1 main nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
 }
-
-main nav ul li:nth-of-type(2) h2 {
-  color: var(--colorPurple);
+.page1 main nav li {
+  height: 8.5em;
+  position: relative;
+  top: -1em;
 }
-
-main nav ul li:nth-of-type(3) h2 {
-  color: var(--colorGreen);
-}
-
-main nav ul li:nth-of-type(4) h2 {
-  color: var(--colorOrange);
-}
-
-main nav a {
+.page1 main nav a {
   text-decoration: none;
 }
 
-main .png-nav {
-  max-width: 260px;
+.page1 main nav ul li:nth-of-type(1) img,
+.page1 main nav ul li:nth-of-type(2) img,
+.page1 main nav ul li:nth-of-type(3) img,
+.page1 main nav ul li:nth-of-type(4) img {
+  min-height: 135px;
+  min-width: 300px;
+  width: 300px;
   padding: 20px;
 }
 
-/* ================
-      tijdelijk
-   ================ */
-a {
-  color: white;
+.page1 main nav h2 {
+  position: absolute;
+  font-size: 26px;
+  line-height: 25px;
+  width: 90px;
+  z-index: 99;
 }
 
-.mega-menu {
-  visibility: hidden;
+.page1 main nav ul li:nth-of-type(1) h2 {
+  color: var(--colorBlue);
+  top: 70px;
+  left: 40px;
 }
+
+.page1 main nav ul li:nth-of-type(2) h2 {
+  color: var(--colorPurple);
+  top: 68px;
+  left: 28px;
+}
+
+.page1 main nav ul li:nth-of-type(3) h2 {
+  color: var(--colorGreen);
+  top: 60px;
+  left: 40px;
+}
+
+.page1 main nav ul li:nth-of-type(4) h2 {
+  color: var(--colorOrange);
+  top: 65px;
+  left: 40px;
+}
+.page1 main nav ul li:nth-of-type(4) p {
+  display: inline;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  padding: .2em .4em;
+  background-color: #1b9af0;
+  color: #fff;
+  font-size: 13px;
+  border-radius: .2em;
+}
+
+/*
+======================
+======================
+===== SECTION 1 ======
+======================
+======================
+*/
+
+
+.page1 main section {
+  margin: 1em;
+  width: 90vw;
+}
+
+.page1 main section:nth-of-type(1) h1,
+.page1 main section:nth-of-type(1) p {
+  background-color: #fff;
+  z-index: 70;
+  transform: translateY(-50px);
+}
+
+.page1 main section:nth-of-type(1) h1 {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  margin: 20px 25px 0 25px;
+
+}
+
+.page1 main section:nth-of-type(1) p {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 19.6px;
+  margin: 10px 25px 20px 25px;
+}
+
+/*
+======================
+======================
+===== SECTION 2 ======
+======================
+======================
+*/
+
+.page1 main section:nth-of-type(2) {
+  margin: 1em;
+  width: 90vw;
+  height: fit-content;
+}
+
+.page1 main section:nth-of-type(2) li {
+  height: 200px;
+  margin: 3em 0;
+  background-color: #fff;
+  box-shadow: 0 0 15px grey;
+  width: 90vw;
+}
+
+.page1 main section:nth-of-type(2) h3 {
+  transform: translateY(-50px);
+  background-color: #fff;
+  padding: 20px 25px;
+  width: 90vw;
+}
+.page1 main section:nth-of-type(2) p {
+display: none;
+width: 90vw;
+}
+
+.page1 main section:nth-of-type(2) img {
+  width: 90vw;
+  max-width: 743px;
+}
+
+/*
+======================
+======================
+======= BUTTON =======
+======================
+======================
+*/
+
+.page1 input[value="SEE ALL POSTS"] {
+  visibility: visible;
+
+  color: #fff;
+  background-color: var(--colorRed);
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+
+  height: 50px;
+  width: 100%;
+  min-width: 250px;
+  max-width: 225px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 4.923px 9.846px;
+  margin: 0 auto;
+}
+
+.page1 .container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+/*
+======================
+======================
+===== NAV ONDER ======
+======================
+======================
+*/
+
+.page1 main nav:nth-of-type(2) {
+  background-image: none;
+}
+
+.page1 main nav:nth-of-type(2) ul {
+  margin: 10px 0px;
+}
+
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(1) h2 {
+  color: var(--colorPurple);
+  top: 83px;
+  left: 40px;
+}
+
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(2) h2 {
+  color: var(--colorBlue);
+  top: 83px;
+  left: 40px;
+}
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(3) h2 {
+  top: 75px;
+}
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(4) h2 {
+  top: 75px;
+}
+
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(4) p {
+  display: inline;
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  padding: .2em .4em;
+  background-color: #1b9af0;
+  color: #fff;
+  font-size: 13px;
+  border-radius: .2em;
+}
+
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(1) img,
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(2) img,
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(3) img,
+.page1 main nav:nth-of-type(2) ul li:nth-of-type(4) img {
+  min-height: 135px;
+  width: 350px;
+  padding: 20px;
+}
+
+/* 
+========================================================================
+========================================================================
+=====================          FOOTER           ========================
+========================================================================
+========================================================================
+*/
+
+.page1 footer p,
+.page1 footer h3,
+.page1 footer a {
+  color: #fff;
+}
+
+
+/* ====== dnd beyond and fandom logo section ====== */
+.page1 footer section:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.page1 footer section:nth-of-type(1) img {
+  width: 92px;
+}
+.page1 footer section:nth-of-type(1) > img {
+  margin: 20px 0 10px;
+}
+.page1 footer section:nth-of-type(1) a img {
+  width: 200px;
+  margin: 10px 0 0;
+}
+
+.page1 footer section:nth-of-type(1) a p {
+  font-size: 12px;
+  color: #979aa4;
+  line-height: 16.8px;
+  font-weight: 700;
+}
+
+.page1 footer section:nth-of-type(1) > p {
+  font-size: 14px;
+  padding: 5px 0 0;
+  color: var(--colorGrey);
+}
+
+
+/* ====== footer background color ====== */
+.page1 footer section:nth-of-type(1),
+.page1 footer section:nth-of-type(2) {
+  background-color: var(--colorFooterTop);
+}
+.page1 footer section:nth-of-type(3) {
+  background-color: var(--colorFooterBottom);
+}
+
+
+/* ================== links ================== */
+.page1 footer section:nth-of-type(2) {
+  display: flex;
+}
+
+.page1 footer section:nth-of-type(2) nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 33.3333%;
+}
+
+.page1 footer section:nth-of-type(2) nav ul {
+  list-style: none;
+  width: 121.66px;
+  height: 151px;
+  padding: 0 5px 5px;
+}
+
+/* .page1 footer section:nth-of-type(2) nav h3 {
+  font-size: 12px;
+  color: var(--colorGrey);
+  padding-bottom: 10px;
+  padding: 0 0 10px 5px;
+} */
+
+.page1 footer section:nth-of-type(2) nav ul li {
+  padding-top: 5px;
+}
+
+.page1 footer section:nth-of-type(2) nav ul li:first-of-type {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--colorGrey);
+  padding-bottom: 10px;
+  padding: 0 0 10px 0;
+}
+
+.page1 footer section:nth-of-type(2) nav ul a {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* ============ footer bottom part  ============ */
+.page1 footer section:nth-of-type(3) {
+  padding: 10px;
+}
+.page1 footer section:nth-of-type(3) p, 
+.page1 footer section:nth-of-type(3) ul li a {
+  color: var(--colorGrey);
+  font-size: 12px;
+}
+
+.page1 footer section:nth-of-type(3) p:nth-of-type(1) {
+  margin: 0 0 10px;
+}
+
+.page1 footer section:nth-of-type(3) ul {
+  display: flex;
+  padding: 10px 0 0;
+  justify-content: space-evenly;
+}
+
+
+/* Hiermee style ik de list elementen die tussen de Privacy Policy, TOS, Support staan */
+.page1 footer section:nth-of-type(3) ul li::marker {
+  color: var(--colorGrey);
+  font-size: 0.6em;
+  content: '\2022';
+}
+
+.page1 footer section:nth-of-type(3) ul li:nth-of-type(1)::marker {
+  content: '';
+}
+
+.page1 footer section:nth-of-type(3) ul li {
+  padding-left: 6px;
+}
+
+
+
+/* 
+========================================================================
+========================================================================
+===============          RESPONSIVE PAGINA 1          ==================
+========================================================================
+========================================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+===================================================================================================================
+===================================================================================================================
+===================================================================================================================
+==========================================           PAGE 2           ============================================= 
+===================================================================================================================
+===================================================================================================================
+===================================================================================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+

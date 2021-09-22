@@ -238,7 +238,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.dndbeyond.com/
 2. https://www.dndbeyond.com/profile/Faynore/characters/17074841
-3. https://www.youtube.com/watch?v=svhnI9sKUDI
-4. 
+3. ...
 
 </details>
