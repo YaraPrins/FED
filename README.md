@@ -115,6 +115,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+Ik ben deze week goed aan de slag geweest met FED, voornamelijk mijn eerste pagina die bijna af is (ik moet hem alleen nog responsive maken en stukje JS er in zetten).
+Het ging eigenlijk vrij soepel allemaal, het was alleen even veel werk.
+Ook merkte ik dat het voor mij heel veel schilde als ik met _comments_ werkte, zoals in css met bijv de /* ====== */ , waardoor ik heel overzichtelijk alles steeds terug kon vinden.
+Het enige wat ik eigenlijk net zag, was dat mijn website, de hele tijd werkt met background-image op een element in plaats van een afbeelding te nesten. Ik vraag mij hier alleen mee af, of dat op die wijze nog steeds toegankelijk is voor mensen met een screenreader o.i.d. , of dat ik beter door kan gaan zoals eerst met gewoon een losse afbeelding genest in een ander element.
+ 
+Voor de rest heb ik alvast gekeken naar de breakpoints van de _echte_ eerste pagina, op hoeveel pixel er wat gebeurt, en heb dat opgeschreven met een omschrijving wat er precies veranderd, zodat ik dit makkelijker kan maken.
 
 
 ### Agenda voor meeting
