@@ -193,6 +193,13 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+Deze week is het vrij soepel verlopen. Ik ben heel wat opgeschoten en zelfs bijna klaar met mijne eerste pagina. Mijn tweede pagina ben ik al goed opweg, maar moet nog wel wat aan gebeuren.
+Ik liep deze week wel tegen een aantal problemen aan toen ik aan de slag wilde gaan met het responsive maken, zoals dat de video een rare verhouding had gekregen of dat ik de content op een bepaalde viewport width vast wilde zetten in het midden en de achtergrond door wilde laten gaan. Met wat gepuzzel ( en de hulp van Vasilis ) is mij dit uiteindelijk wel gelukt wat ik echt super fijn vond.
+Het grootste punt waar ik deze week tegenaan liep was een stukje met Grid. Ik wilde mijn artikelen op een bepaalde viewport width in een grid zetten van 2 bij 2, en later zelfs eerste twee artikelen 1x2 en de rest 3x2. Ik liep alleen tegen het probleem dat mijn afbeeldingen / sections van mijn artikelen elkaar overlapte en niet kleiner werden ondanks dat ik 1fr gebruikte. Samen met Vasilis ben ik erachter gekomen dat dit kwam vanwege dat ik overal een vaste width waarde op had staan, wat mijn grid dus raar maakte. 
+Uiteindelijk is het allemaal wel gelukt, en hoef ik voor pagina 1 nog maaar een aantal kleine dingentjes te doen zoals het toevoegen van de timestamps, het mega-menu laten zien bij een viewport van 1024px, en 'read more' linkjes toevoegen aan sommige artikelen.
+Bij pagina 2 moet ik wel nog heel wat CSS, Responsiveness en moet ik nog het hamburger menu van de tweede pagina te laten werken met JS.
+AL met al, een goede productieve week!
 
 
 ### Agenda voor meeting
@@ -250,6 +257,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. https://stackoverflow.com/questions/47095596/body-overflow-x-hidden-breaks-position-sticky
 5. https://newbedev.com/position-sticky-not-working-with-body-overflow-x-hidden
 6. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section
-7. ...
+7. https://css-tricks.com/almanac/properties/f/flex-basis/
+8. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+9. https://www.section.io/engineering-education/embedding-a-video-into-a-webpage-using-html-and-css/
+10. https://css-tricks.com/almanac/properties/a/aspect-ratio/
 
 </details>
