@@ -1,57 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Yar Prins">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Character Page FED Yara Prins</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" href="images/img-gen/favicon-dndb.png">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-
-<body class="page2">
-    <header>
-
-        <!-- LOGO DND BEYOND & HAMBURGER MENU -->
-		<div>
-			<a href="index.html"><img src="./images/other-svg/_dnd-beyond-logo.svg" alt="D&amp;D Beyond Logo"></a>
-			<div class="hamburger-menu-icon"><a href="./index.html"></a></div>
-		</div>
-
-        <!-- DESKTOP MEGA MENU -->
-		<nav class="mega-menu">
-			<ul>
-				<li><a href="">Collections</a></li>
-				<li><a href="">Game Rules</a></li>
-				<li><a href="">Sources</a></li>
-				<li><a href="">Tools</a></li>
-				<li><a href="">Marketplace</a></li>
-				<li><a href="">Media</a></li>
-				<li><a href="">Forums</a></li>
-				<li><a href="">New Player Guide</a></li>
-				<li><a href="">Subscribe</a></li>
-			</ul>
-		</nav>
-	</header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Yara Prins">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Main Page FED Yara Prins</title>
+        
+        <link href="styles/style.css" rel="stylesheet">
+        <link rel="icon" href="images/img-gen/favicon-dndb.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body class="page2">
+        <div></div>
+        <header>
+            <div>
+                        <!-- LOGO DND BEYOND & HAMBURGER MENU 
+                class="mob-nav-open"
+                class="mega-menu mob-menu"-->
+                <div>
+                    <a href="index.html">
+                        <img src="./images/other-svg/_dnd-beyond-logo.svg" alt="D&amp;D Beyond Logo">
+                    </a>
+                    <div><a href="./index.html"></a></div>
+                </div>
+    
+                <!-- DESKTOP MEGA MENU & MOB MENU-->
+                <nav>
+                    <div>
+                        <img src="./images/other-svg/changelog.svg" alt="changelog">
+                        <img src="./images/other-svg/bell.svg" alt="my notifications">
+                        <img src="./images/other-svg/comments.svg" alt="private messages">
+                        <span>
+                            <img src="/images/img-gen/avatar_2.png" alt="user profile">
+                        </span>
+                    </div>
+                    <ul>
+                        <li><a href="">Collections</a></li>
+                        <li><a href="">Game Rules</a></li>
+                        <li><a href="">Sources</a></li>
+                        <li><a href="">Tools</a></li>
+                        <li><a href="">Marketplace</a></li>
+                        <li><a href="">Media</a></li>
+                        <li><a href="">Forums</a></li>
+                        <li><a href="">New Player Guide</a></li>
+                        <li><a href="">Subscribe</a></li>
+                    </ul>
+                    <button>Sign Out</button>
+                </nav>
+            </div>
+        </header>
 
     <main>
-
         <!-- SECTION 1 - CHARACTER NAME, RACE, CLASS, LVL, HITPOINTS -->
         <section>
-            <img src="./images/img-gen/character-page/637062404846679215.jpeg" alt="character Nalith Thavon afbeelding">
             <div>
-                <h1>Nalith Thavon</h1>
-                <p>Female Glasya Tiefling Bard 4</p>
-                <p>Level 4</p>
+                <img src="./images/img-gen/character-page/637062404846679215.jpeg" alt="character Nalith Thavon afbeelding">
+                <div>
+                    <h1>Nalith Thavon</h1>
+                    <p>Female Glasya Tiefling Bard 4</p>
+                    <p>Level 4</p>
+                </div>
             </div>
 
             <div>
@@ -68,7 +87,7 @@
         <!-- SECTION 2 - PROF BONUS, WALKSPEED, INIT, AC -->
         <section>
             <div>
-                <p>PROCIENCY BONUS</p>
+                <p>PROCIENCY</p>
                 <p><span>+</span>2</p>
                 <p>BONUS</p>
             </div>
@@ -108,31 +127,49 @@
         <!-- SECTION 4 - ABILITY SCORES & MODIFIERS -->
         <section>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>STRENGTH</p>
                 <p><span>+</span>0</p>
                 <p>10</p>
             </div>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>DEXTERITY</p>
                 <p><span>+</span>3</p>
                 <p>16</p>
             </div>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>CONSTITUTION</p>
                 <p><span>+</span>2</p>
                 <p>14</p>
             </div>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>INTELLIGENCE</p>
                 <p><span>+</span>2</p>
                 <p>14</p>
             </div>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>WISDOM</p>
                 <p><span>+</span>1</p>
                 <p>12</p>
             </div>
             <div>
+                <div>
+                    <img src="./images/border-svg/main-ability-borders.svg" alt="main-ability-borders">
+                </div>
                 <p>CHARISMA</p>
                 <p><span>+</span>4</p>
                 <p>18</p>
@@ -142,7 +179,7 @@
 
         <!-- SECTION 5 - SAVING THROWS -->
         <section>
-            <h2>SAVING THROWS <img src="./images/gear-grey.svg" alt="edit senses"></h2>
+            <h2>SAVING THROWS <img src="./images/other-svg/gear-grey.svg" alt="edit senses"></h2>
             <div>
                 <div>
                     <p>STR</p>
@@ -169,13 +206,13 @@
                     <p><span>+</span>6</p>
                 </div>
             </div>
-            <p><img src="./images/advantage-icon.svg" alt="advantage icon">made to maintain your concentration on a spell when you take damage</p>
+            <p><img src="./images/other-svg/advantage-icon.svg" alt="advantage icon">made to maintain your concentration on a spell when you take damage</p>
         </section>
 
 
         <!-- SECTION 6 - SENSES & PASSIVE WIS/INT -->
         <section>
-            <h2>SENSES<img src="./images/gear-grey.svg" alt="edit senses"></h2>
+            <h2>SENSES<img src="./images/other-svg/gear-grey.svg" alt="edit senses"></h2>
             <div>
                 <div>
                     <p>12</p>
