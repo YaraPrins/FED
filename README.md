@@ -82,25 +82,20 @@ Hoofdpagina Eigen Karakter
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+ 
+Ik ben deze week begonnen met de opdracht, ik heb een website uitgezocht die ik leuk vond en hier heb ik deze week een breakdownschets van gemaakt.
+Ook ben ik begonnen met de opzet van mijn HTML en CSS, wat eigenlijk vrij goed ging als ik een beetje mijn breakdownschets volgde en gebruik maakte van Inspect Elements van de website zelf.
+Aangezien ik al redelijk goed begrijp hoe HTML en CSS werkt, ben ik me meer gaan richten op het schrijven van mooie overzichtelijke code, door middel met het werken van grote stukken comments (zodat ik in de viewfinder al mijn stukken gelijk kan vinden).
+Ook ben ik al begonnen met het toevoegen van CSS variable selectors (zie afb).
+<img src="images/dummy-plaatje.jpg" width="375px" alt="screenshot code 1">
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Een aantal tips gekregen over het verder gaan met mijn code , ik liep wat vast maar al snel opgelost.
+- Hulp vragen als ik vast kom te zitten in plaats van uren ernaar staren
+- Eerst richten op dat alle HTML er in staat, dan pas CSS en pas als laatst de JS.
 
 </details>
 
@@ -125,23 +120,12 @@ Ook had ik wat problemen met _position: sticky_ te mixen met overflow-x: hidden,
 Voor de rest heb ik alvast gekeken naar de breakpoints van de _echte_ eerste pagina, op hoeveel pixel er wat gebeurt, en heb dat opgeschreven met een omschrijving wat er precies veranderd, zodat ik dit makkelijker kan maken.
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Zet niet overal een Width of een Height op met CSS (geeft vaak problemen)
+- Kijk met Inspect Elements naar waar het probleem zit (schakel een ding uit, een ander aan, kijk of het opgelost is)
+- Ga ook aan de slag met de tweede pagina, niet alleend de eerste.
 
 </details>
 
@@ -200,16 +184,6 @@ Het grootste punt waar ik deze week tegenaan liep was een stukje met Grid. Ik wi
 Uiteindelijk is het allemaal wel gelukt, en hoef ik voor pagina 1 nog maaar een aantal kleine dingentjes te doen zoals het toevoegen van de timestamps, het mega-menu laten zien bij een viewport van 1024px, en 'read more' linkjes toevoegen aan sommige artikelen.
 Bij pagina 2 moet ik wel nog heel wat CSS, Responsiveness en moet ik nog het hamburger menu van de tweede pagina te laten werken met JS.
 AL met al, een goede productieve week!
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
