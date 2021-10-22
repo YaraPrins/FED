@@ -63,12 +63,6 @@ Hoofdpagina Eigen Karakter
 ### de hele pagina: 
 <img src="images/IMG_20210916_005548.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
 </details>
 
 
@@ -87,7 +81,7 @@ Ik ben deze week begonnen met de opdracht, ik heb een website uitgezocht die ik 
 Ook ben ik begonnen met de opzet van mijn HTML en CSS, wat eigenlijk vrij goed ging als ik een beetje mijn breakdownschets volgde en gebruik maakte van Inspect Elements van de website zelf.
 Aangezien ik al redelijk goed begrijp hoe HTML en CSS werkt, ben ik me meer gaan richten op het schrijven van mooie overzichtelijke code, door middel met het werken van grote stukken comments (zodat ik in de viewfinder al mijn stukken gelijk kan vinden).
 Ook ben ik al begonnen met het toevoegen van CSS variable selectors (zie afb).
-<img src="images/dummy-plaatje.jpg" width="375px" alt="screenshot code 1">
+<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
 
 
 ### Verslag van meeting
