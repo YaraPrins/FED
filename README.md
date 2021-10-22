@@ -132,31 +132,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
 <summary>uitwerken na test in 8e voortgang</summary>
 
-### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Ik heb een aantal tests afgenomen samen met een klasgenoot, van onder andere de screenreader, een aantal verschillende brillen, de test met aandachtsproblemen, en slechte motoriek.
+Hier onder zal ik een aantal afbeeldingen plaatsten met mijn aantekeningen van deze dag.
+<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
+<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
+<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
 
 </details>
 
