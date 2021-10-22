@@ -134,9 +134,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Ik heb een aantal tests afgenomen samen met een klasgenoot, van onder andere de screenreader, een aantal verschillende brillen, de test met aandachtsproblemen, en slechte motoriek.
 Hier onder zal ik een aantal afbeeldingen plaatsten met mijn aantekeningen van deze dag.
-<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
-<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
-<img src="images/cssvar_screenshot.png" width="375px" alt="screenshot css variabelen">
+<img src="images/IMG_20211022_181349.png" width="375px" alt="aantekeningen 1 toegankelijkheidstest">
+<img src="images/IMG_20211022_181359.png" width="375px" alt="aantekeningen 2 toegankelijkheidstest">
+<img src="images/IMG_20211022_181406.png" width="375px" alt="aantekeningen 3 toegankelijkheidstest">
 
 </details>
 
