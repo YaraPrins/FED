@@ -234,5 +234,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 8. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 9. https://www.section.io/engineering-education/embedding-a-video-into-a-webpage-using-html-and-css/
 10. https://css-tricks.com/almanac/properties/a/aspect-ratio/
+11. https://stackoverflow.com/questions/9998260/css-absolute-position-wont-work-with-margin-leftauto-margin-right-auto
 
 </details>
