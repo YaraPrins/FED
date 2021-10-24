@@ -175,6 +175,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 - Voor de rest ben ik erg goed bezig
 - Schrijf voor mezelf op welke extra dingen ik er in wil hebben (wanneer ik klaar ben met de pagina's), welke zijn mijn top priority, welke minder
 - Vergeet niet de bronnenlijst toe te voegen in de code zelf
+ 
+ 
+### Screenshot(s)
+ <img src="images/voortgang4-screenshot.png" width="375px" alt="screenshot-main-voortgang4-1">
+  <img src="images/voortgang4-screenshot2.png" width="375px" alt="screenshot-main-voortgang4-2">
+  <img src="images/voortgang4-screenshot3.png" width="375px" alt="screenshot-main-voortgang4-3">
+  <img src="images/voortgang4-screenshot4.png" width="375px" alt="screenshot-main-voortgang4-4">
+  <img src="images/voortgang4-screenshot5.png" width="375px" alt="screenshot-main-voortgang4-5">
+  <img src="images/voortgang4-screenshot6.png" width="375px" alt="screenshot-main-voortgang4-6">
+  <img src="images/voortgang4-screenshot7.png" width="375px" alt="screenshot-main-voortgang4-7">
+  <img src="images/voortgang4-screenshot8.png" width="375px" alt="screenshot-main-voortgang4-8">
 
 </details>
 
