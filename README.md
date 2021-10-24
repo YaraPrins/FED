@@ -178,13 +178,13 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
  
  
 ### Screenshot(s)
- <img src="images/voortgang4-screenshot.png" width="375px" alt="screenshot-main-voortgang4-1">
-  <img src="images/voortgang4-screenshot2.png" width="375px" alt="screenshot-main-voortgang4-2">
-  <img src="images/voortgang4-screenshot3.png" width="375px" alt="screenshot-main-voortgang4-3">
+ <img src="images/voortgang4-screenshot.png" width="500px" alt="screenshot-main-voortgang4-1">
+  <img src="images/voortgang4-screenshot2.png" width="500px" alt="screenshot-main-voortgang4-2">
+  <img src="images/voortgang4-screenshot3.png" width="500px" alt="screenshot-main-voortgang4-3">
   <img src="images/voortgang4-screenshot4.png" width="375px" alt="screenshot-main-voortgang4-4">
   <img src="images/voortgang4-screenshot5.png" width="375px" alt="screenshot-main-voortgang4-5">
   <img src="images/voortgang4-screenshot6.png" width="375px" alt="screenshot-main-voortgang4-6">
-  <img src="images/voortgang4-screenshot7.png" width="375px" alt="screenshot-main-voortgang4-7">
+  <img src="images/voortgang4-screenshot7.png" width="500px" alt="screenshot-main-voortgang4-7">
   <img src="images/voortgang4-screenshot8.png" width="375px" alt="screenshot-main-voortgang4-8">
 
 </details>
