@@ -171,10 +171,10 @@ AL met al, een goede productieve week!
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik moet me nu focussen op pagina 2 van mijn project
+- Voor de rest ben ik erg goed bezig
+- Schrijf voor mezelf op welke extra dingen ik er in wil hebben (wanneer ik klaar ben met de pagina's), welke zijn mijn top priority, welke minder
+- Vergeet niet de bronnenlijst toe te voegen in de code zelf
 
 </details>
 
@@ -189,6 +189,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ 
+ Deze afgelopen week is niet goed gegaan qua werken aan mijn school opdrachten. Ik heb deze afgelopen week een goede griep te pakken gekregen, waardoor ik afgelopen week helemaal niets heb kunnen uitvoeren aan mijn werk. Ik lag namelijk anderhalve week goed ziek op bed. Ik heb dus niet verder kunnen werken aan het project, en liep hierdoor uiteindelijk flink achter.
+ Dit is ook de reden waarom ik er voor gekozen heb op een herkansing te doen, aangezien ik mijn website echt niet af zou krijgen in een paar dagen.
+ Tijdens mijn eindgesprek heb ik wel nog een aantal tips en tops gekregen, en al zou ik mijn proces verslag bijwerken en de AVV aantikken, zou ik op dit moment al een goed cijfer krijgen.
+ Maar, voor nu moesten er nog dingen worden toegevoegd aan mijn procesverslag, moesten er nog wat interactieve dingen worden toegevoegd aan mijn code, en moet ik mijn tweede pagina af maken.
+ Dit zal ik dan ook aankomende weken doen voor mijn herkansing van dit vak.
 
 ### Screenshot(s)
 
