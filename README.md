@@ -239,5 +239,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 10. https://css-tricks.com/almanac/properties/a/aspect-ratio/
 11. https://stackoverflow.com/questions/9998260/css-absolute-position-wont-work-with-margin-leftauto-margin-right-auto
 12. https://www.youtube.com/watch?v=D7sNpAiNMQM
+13. https://stackoverflow.com/questions/4728181/recover-default-style-when-modified-with-javascript
 
 </details>
