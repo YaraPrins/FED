@@ -207,14 +207,17 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
  Maar, voor nu moesten er nog dingen worden toegevoegd aan mijn procesverslag, moesten er nog wat interactieve dingen worden toegevoegd aan mijn code, en moet ik mijn tweede pagina af maken.
  Dit zal ik dan ook aankomende weken doen voor mijn herkansing van dit vak.
 
-### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
-
 </details>
 
 
+## Herkansing (week 6 tm 10)
 
+<details>
+ <summary>uitwerken voor herkansing</summary>
+ 
+ ### Stand van zaken
+ 
+</details>
 
 
 ## Bronnenlijst
@@ -235,5 +238,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 9. https://www.section.io/engineering-education/embedding-a-video-into-a-webpage-using-html-and-css/
 10. https://css-tricks.com/almanac/properties/a/aspect-ratio/
 11. https://stackoverflow.com/questions/9998260/css-absolute-position-wont-work-with-margin-leftauto-margin-right-auto
+12. https://www.youtube.com/watch?v=D7sNpAiNMQM
 
 </details>
