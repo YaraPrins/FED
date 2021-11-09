@@ -25,15 +25,14 @@
 	<div></div>
 	<header>
 		<div>
-					<!-- LOGO DND BEYOND & HAMBURGER MENU 
-			class="mob-nav-open"
-			class="mega-menu mob-menu"-->
-			<div>
+			<!-- LOGO DND BEYOND & HAMBURGER MENU -->
+			<div class="content-header">
 				<a href="index.html">
 					<img src="./images/other-svg/_dnd-beyond-logo.svg" alt="D&amp;D Beyond Logo">
 				</a>
 				<div><a href="./index.html"></a></div>
 			</div>
+			<div class="background-header"></div>
 
 			<!-- DESKTOP MEGA MENU & MOB MENU-->
 			<nav>
@@ -46,15 +45,34 @@
 					</span>
 				</div>
 				<ul>
-					<li><a href="">Collections</a></li>
-					<li><a href="">Game Rules</a></li>
-					<li><a href="">Sources</a></li>
-					<li><a href="">Tools</a></li>
-					<li><a href="">Marketplace</a></li>
-					<li><a href="">Media</a></li>
-					<li><a href="">Forums</a></li>
-					<li><a href="">New Player Guide</a></li>
-					<li><a href="">Subscribe</a></li>
+					<li><a href="#" class="rainbow">Collections</a></li>
+					<li><a href="#" class="rainbow">Game Rules</a></li>
+					<li><a href="#" class="rainbow">Sources</a></li>
+					<li><a href="#" class="rainbow">Tools</a></li>
+					<li class="dropdown-trigger1"><a href="#" class="rainbow">Marketplace</a>
+					
+						<ul class="dropdown-content1">
+							<li class=".rainbow-wizard-img"><a href="#" class="rainbow">store</a></li>
+							<li><a href="#" class="rainbow">subscriptions</a></li>
+							<li><a href="#" class="rainbow">redeem a key</a></li>
+							<li><a href="#" class="rainbow">order history</a></li>
+						</ul>
+
+					</li>
+					<li class="dropdown-trigger2"><a href="#" class="rainbow">Media</a>
+					
+						<ul class="dropdown-content2">
+							<li><a href="#" class="rainbow">articles</a></li>
+							<li><a href="#" class="rainbow">twitch</a></li>
+							<li><a href="#" class="rainbow">youtube</a></li>
+							<li><a href="#" class="rainbow">dev updates</a></li>
+						</ul>
+					
+					</li>
+					<li><a href="#" class="rainbow">Forums</a></li>
+					<li><a href="#" class="rainbow">New Player Guide</a></li>
+					<li><a href="#" class="rainbow">Subscribe</a></li>
+					<li><img src="./images/img-gen/5188e9cd133362e349708cd3c859a6d2.gif" alt="Click to enable party time! (flashing color warning)"></li>
 				</ul>
 				<button>Sign Out</button>
 			</nav>
@@ -67,25 +85,25 @@
 			<nav>
 				<ul>
 					<li>
-						<a href="">
+						<a href="./character-page.html">
 							<img src="images/img-gen/strip-create-a-character.png" alt="create a character background image">
 							<h2>Create a Character</h2>
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="./character-page.html">
 							<img src="images/img-gen/strip-subscription-benefits.png" alt="subscription benefits background image">
 							<h2>Subscription Benefits</h2>
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="./character-page.html">
 							<img src="images/img-gen/strip-homebrew-content.png" alt="homebrew content background image">
 							<h2>Homebrew Content</h2>
 						</a>
 					</li>
 					<li>
-						<a href="">
+						<a href="./character-page.html">
 							<img src="images/img-gen/strip-encounter-builder.png" alt="build an encounter background image">
 							<h2>Build an Encounter</h2>
 							<p>Beta</p>
@@ -98,16 +116,12 @@
 			<section>
 				<div>
 					<article>
-						<a href="">
+						<a href="#">
 							<img src="./images/img-gen/who-in-the-nine-hells-is-fizban.jpeg" alt="article background image - who in the nine hells is fizban">
 							<h1>Who in the Nine Hells Is Fizban? Find Out Here!</h1>
 						</a>
-						<!-- <p class="posted-on">
-							<time datetime="2021-09-03 22:26">4 days ago</time>
-							by Mike Bernier
-						</p> -->
 						<p><i>Fizban's Treasury of Dragons</i> releases October 19. Learn all about the fantastical author behind the book and why he isn' all that he appears to be.</p>
-						<input type="button" value="Read More">
+						<input type="button" value="Read More" title="Read more about Fizban's Treasury of Dragons">
 					</article>
 					<!-- imbedded video -->
 					<iframe width="1745" height="800" src="https://www.youtube.com/embed/_aV7VsSpbh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -119,90 +133,58 @@
 		<section>
 			<ul>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637636997899610633.jpeg" alt="The Wild Beyond the Witchlight image">
 						<h3>Preorder The Wild Beyond the Witchlight</h3>
 					</a>
 					<p>D&amp;D's next adventure book, <i>The Wild Beyond the Witchlight</i>, takes players into the Feywild! The book offers new monsters, mechanics, and story hooks for players of all ages and experience levels. Preorder now on D&amp;D Beyond!</p>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-04 22:26">Aug 4, 2021</time>
-						by DDB Staff
-					</p> -->
-					<a href="">Read More</a>
+					<a href="#" title="Read more about The Wild Beyond the Witchlight">Read More</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637619974945141278.jpeg" alt="Fizban's Treasury of Dragons image">
 						<h3>Preorder Fizban's Treasury of Dragons Now on D&amp;D Beyond!</h3>
 					</a>
 					<p>The sourcebook releases on October 19 and includes draconic ancestries for dragonborn, monk and ranger subclasses, feats and spells! DMs will get everything they need to run dragon encounters, including lair maps and a dragon bestiary, including gem dragons! Preorder now!</p>
-					<!-- <p class="posted-on">
-						<time datetime="2021-07-16 22:26">Jul 16, 2021</time>
-						by DDB Staff
-					</p> -->
-					<a href="">Read More</a>
+					<a href="#" title="Read more about Fizban's Treasury of Dragons">Read More</a>
 				</li>
 
 		<!-- OTHER ARTICLES (later 3 columns) -->
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637661412677824228.jpeg" alt="image druid with bird">
 						<h3>Druid 201: The Best Magic Items for Druids</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-07-31 22:26">6 Days ago</time>
-						by Mike Bernier
-					</p> -->
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637659701996593856.jpeg" alt="crew on ship">
 						<h3>D&amp;D 101: Choosing a Race for Your Dungeons &amp; Dragons Character</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-31 22:26">Aug 31, 2021</time>
-						by Jeremy Blum
-					</p> -->
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637656938246080677.jpeg" alt="crew running over land">
 						<h3>Road Trip! 3 Steps to Making Travel Fun in Dungeons &amp; Dragons</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-28 22:26">Aug 28, 2021</time>
-						by DDB Staff
-					</p> -->
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637655066099371671.jpeg" alt="people fighting owlbear">
 						<h3>Parleying With Monsters: Sweet-Talk These 3 Creatures Out of Combat</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-25 22:26">Aug 25, 2021</time>
-						by Jeremy Blum
-					</p> -->
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637650001609204380.jpeg" alt="subscribe today get cool monthly loot">
 						<h3>D&amp;D Beyond Subscribers Get Free Animated Characters Frames in August!</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-19 22:26">Aug 19, 2021</time>
-						by DDB Staff
-					</p> -->
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<img src="images/img-gen/637649102361090415.jpeg" alt="">
 						<h3>Free Beyond Dice Set for All D&amp;D Beyond Users!</h3>
 					</a>
-					<!-- <p class="posted-on">
-						<time datetime="2021-08-18 22:26">Aug 18, 2021</time>
-						by DDB Staff
-					</p> -->
 				</li>
 			</ul>
 		</section>
@@ -216,25 +198,25 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="">
+					<a href="#">
 						<h2>Subscription Benefits</h2>
 						<img src="images/img-gen/strip-subscription-benefits.png" alt="subscription benefits background image">
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<h2>Create a Character</h2>
 						<img src="images/img-gen/strip-create-a-character.png" alt="create a character background image">
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<h2>Homebrew Content</h2>
 						<img src="images/img-gen/strip-homebrew-content.png" alt="homebrew content background image">
 					</a>
 				</li>
 				<li>
-					<a href="">
+					<a href="#">
 						<h2>Build an Encounter</h2>
 						<img src="images/img-gen/strip-encounter-builder.png" alt="build an encounter background image">
 						<p>Beta</p>
@@ -248,7 +230,7 @@
 		<!-- FOOTER TOP PART - LOGOS -->
 		<div>
 			<section>
-				<a href="">
+				<a href="#">
 					<img src="./images/other-svg/_dnd-beyond-logo.svg" alt="_dnd beyond logo">
 					<p>PLAY WITH ADVANTAGE</p>
 				</a>
@@ -263,26 +245,26 @@
 				<nav>
 					<ul>
 						<li>QUICK LINKS</li>
-						<li><a href="">COMPENDIUM</a></li>
-						<li><a href="">BUILDER</a></li>
-						<li><a href="">CHARACTERS</a></li>
-						<li><a href="">CHANGELOG</a></li>
-						<li><a href="">CAREERS</a></li>
+						<li><a href="#">COMPENDIUM</a></li>
+						<li><a href="#">BUILDER</a></li>
+						<li><a href="#">CHARACTERS</a></li>
+						<li><a href="#">CHANGELOG</a></li>
+						<li><a href="#">CAREERS</a></li>
 					</ul>
 					<ul>
 						<li>SUPPORT</li>
-						<li><a href="">HELP PORTAL</a></li>
-						<li><a href="">SUPPORT FORUM</a></li>
-						<li><a href="">CONTACT US</a></li>
-						<li><a href="">DO NOT SELL MY INFO</a></li>
+						<li><a href="#">HELP PORTAL</a></li>
+						<li><a href="#">SUPPORT FORUM</a></li>
+						<li><a href="#">CONTACT US</a></li>
+						<li><a href="#">DO NOT SELL MY INFO</a></li>
 					</ul>
 					<ul>
 						<li>FOLLOW US</li>
-						<li><a href="">TWITTER</a></li>
-						<li><a href="">FACEBOOK</a></li>
-						<li><a href="">YOUTUBE</a></li>
-						<li><a href="">TWITCH</a></li>
-						<li><a href="">INSTAGRAM</a></li>
+						<li><a href="#">TWITTER</a></li>
+						<li><a href="#">FACEBOOK</a></li>
+						<li><a href="#">YOUTUBE</a></li>
+						<li><a href="#">TWITCH</a></li>
+						<li><a href="#">INSTAGRAM</a></li>
 					</ul>
 				</nav>
 			</section>
@@ -298,10 +280,10 @@
 					</p>
 				</div>
 				<ul>
-					<li><a href="">Privacy Policy</a></li>
-					<li><a href="">Terms of Service</a></li>
-					<li><a href="">Terms of Sale</a></li>
-					<li><a href="">Support</a></li>
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Terms of Service</a></li>
+					<li><a href="#">Terms of Sale</a></li>
+					<li><a href="#">Support</a></li>
 				</ul>
 			</div>
 		</section>

@@ -23,43 +23,61 @@
     
     <body class="page2">
         <div></div>
-        <header>
-            <div>
-                        <!-- LOGO DND BEYOND & HAMBURGER MENU 
-                class="mob-nav-open"
-                class="mega-menu mob-menu"-->
-                <div>
-                    <a href="index.html">
-                        <img src="./images/other-svg/_dnd-beyond-logo.svg" alt="D&amp;D Beyond Logo">
-                    </a>
-                    <div><a href="./index.html"></a></div>
-                </div>
-    
-                <!-- DESKTOP MEGA MENU & MOB MENU-->
-                <nav>
-                    <div>
-                        <img src="./images/other-svg/changelog.svg" alt="changelog">
-                        <img src="./images/other-svg/bell.svg" alt="my notifications">
-                        <img src="./images/other-svg/comments.svg" alt="private messages">
-                        <span>
-                            <img src="/images/img-gen/avatar_2.png" alt="user profile">
-                        </span>
-                    </div>
-                    <ul>
-                        <li><a href="">Collections</a></li>
-                        <li><a href="">Game Rules</a></li>
-                        <li><a href="">Sources</a></li>
-                        <li><a href="">Tools</a></li>
-                        <li><a href="">Marketplace</a></li>
-                        <li><a href="">Media</a></li>
-                        <li><a href="">Forums</a></li>
-                        <li><a href="">New Player Guide</a></li>
-                        <li><a href="">Subscribe</a></li>
-                    </ul>
-                    <button>Sign Out</button>
-                </nav>
-            </div>
-        </header>
+	<header>
+		<div>
+			<!-- LOGO DND BEYOND & HAMBURGER MENU -->
+			<div class="content-header">
+				<a href="index.html">
+					<img src="./images/other-svg/_dnd-beyond-logo.svg" alt="D&amp;D Beyond Logo">
+				</a>
+				<div><a href="./index.html"></a></div>
+			</div>
+			<div class="background-header"></div>
+
+			<!-- DESKTOP MEGA MENU & MOB MENU-->
+			<nav>
+				<div>
+					<img src="./images/other-svg/changelog.svg" alt="changelog">
+					<img src="./images/other-svg/bell.svg" alt="my notifications">
+					<img src="./images/other-svg/comments.svg" alt="private messages">
+					<span>
+						<img src="/images/img-gen/avatar_2.png" alt="user profile">
+					</span>
+				</div>
+				<ul>
+					<li><a href="#" class="rainbow">Collections</a></li>
+					<li><a href="#" class="rainbow">Game Rules</a></li>
+					<li><a href="#" class="rainbow">Sources</a></li>
+					<li><a href="#" class="rainbow">Tools</a></li>
+					<li class="dropdown-trigger1"><a href="#" class="rainbow">Marketplace</a>
+					
+						<ul class="dropdown-content1">
+							<li class=".rainbow-wizard-img"><a href="#" class="rainbow">store</a></li>
+							<li><a href="#" class="rainbow">subscriptions</a></li>
+							<li><a href="#" class="rainbow">redeem a key</a></li>
+							<li><a href="#" class="rainbow">order history</a></li>
+						</ul>
+
+					</li>
+					<li class="dropdown-trigger2"><a href="#" class="rainbow">Media</a>
+					
+						<ul class="dropdown-content2">
+							<li><a href="#" class="rainbow">articles</a></li>
+							<li><a href="#" class="rainbow">twitch</a></li>
+							<li><a href="#" class="rainbow">youtube</a></li>
+							<li><a href="#" class="rainbow">dev updates</a></li>
+						</ul>
+					
+					</li>
+					<li><a href="#" class="rainbow">Forums</a></li>
+					<li><a href="#" class="rainbow">New Player Guide</a></li>
+					<li><a href="#" class="rainbow">Subscribe</a></li>
+					<li><img src="./images/img-gen/5188e9cd133362e349708cd3c859a6d2.gif" alt="Click to enable party time! (flashing color warning)"></li>
+				</ul>
+				<button>Sign Out</button>
+			</nav>
+		</div>
+	</header>
 
     <main>
         <!-- SECTION 1 - CHARACTER NAME, RACE, CLASS, LVL, HITPOINTS -->
@@ -83,27 +101,38 @@
             </div>
         </section>
 
-
         <!-- SECTION 2 - PROF BONUS, WALKSPEED, INIT, AC -->
         <section>
             <div>
+                <div>
+                    <img src="./images/border-svg/speed_profbonus-border.svg" alt="proficieny bonus">
+                </div>
                 <p>PROCIENCY</p>
                 <p><span>+</span>2</p>
                 <p>BONUS</p>
             </div>
 
             <div>
+                <div>
+                    <img src="./images/border-svg/speed_profbonus-border.svg" alt="walking speed">
+                </div>
                 <p>WALKING</p>
                 <p>30<span>ft.</span></p>
                 <p>SPEED</p>
             </div>
 
             <div>
+                <div>
+                    <img src="./images/border-svg/initiative-border.svg" alt="initiative">
+                </div>
                 <p><span>+</span>4</p>
                 <p>INITIATIVE</p>
             </div>
 
             <div>
+                <div>
+                    <img src="./images/border-svg/armor-class-border.svg" alt="armor class">
+                </div>
                 <p>ARMOR</p>
                 <p>15</p>
                 <p>CLASS</p>
@@ -117,12 +146,10 @@
             </div>
         </section>
 
-
         <!-- SECTION 3 - CAMPAIGN NAME -->
         <section>
             <p><span>CAMPAIGN:</span> five directions</p>
         </section>
-
 
         <!-- SECTION 4 - ABILITY SCORES & MODIFIERS -->
         <section>
@@ -176,7 +203,6 @@
             </div>
         </section>
 
-
         <!-- SECTION 5 - SAVING THROWS -->
         <section>
             <div> 
@@ -185,6 +211,9 @@
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.625 10.27083" class="ddbc-svg ddbc-beveled-edge-repeat-svg " preserveAspectRatio="none"><path fill="#C53131" d="M127.99,5.29V364.56l-5.01,5.02H-106.41l-5.01-5.02V5.29l5.01-5.01H122.98Zm-1.37,354.09V10.51a10.73922,10.73922,0,0,0-4.31-6.3H-105.77a10.50987,10.50987,0,0,0-4.28,6.27V359.35a10.67983,10.67983,0,0,0,4.3,6.3H122.34A10.58242,10.58242,0,0,0,126.62,359.38ZM-104.58,3.46H121.13a17.19832,17.19832,0,0,0-4.87-1.8h-216a17.50959,17.50959,0,0,0-3.94,1.3C-104,3.11-104.29,3.29-104.58,3.46Z"></path><path fill="#FEFEFE" d="M126.62,10.51V359.38a10.58242,10.58242,0,0,1-4.28,6.27H-105.75a10.67983,10.67983,0,0,1-4.3-6.3V10.48a10.50987,10.50987,0,0,1,4.28-6.27H122.31A10.73922,10.73922,0,0,1,126.62,10.51Z"></path></svg>
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.625 10.27083" class="ddbc-svg ddbc-beveled-edge-corner-svg "><path fill="#C53131" d="M236.61517,5.86462v2.707a11.33993,11.33993,0,0,0-4.256-5.07v-.046h-.071a16.08764,16.08764,0,0,0-3.756-1.799h3.876Zm-4.207,362.337h-3.876a16.00871,16.00871,0,0,0,3.756-1.799h.071v-.045a11.34783,11.34783,0,0,0,4.256-5.071v2.707Zm-232.457-4.208v-2.707a11.34832,11.34832,0,0,0,4.256,5.071v.045h.071a16.01053,16.01053,0,0,0,3.756,1.799h-3.875Zm10.354,4.208a17.36725,17.36725,0,0,1-4.873-1.799h225.717c-.297.167-.579.344-.898.496a17.88761,17.88761,0,0,1-3.94,1.303Z"></path><path fill="#C53131" d="M237.99,5.29V364.56l-5.01,5.02H3.59l-5.01-5.02V5.29L3.59.28H232.98Zm-1.37,354.09V10.51a10.73922,10.73922,0,0,0-4.31-6.3H4.23A10.50987,10.50987,0,0,0-.05,10.48V359.35a10.67983,10.67983,0,0,0,4.3,6.3H232.34A10.58242,10.58242,0,0,0,236.62,359.38ZM5.42,3.46H231.13a17.19832,17.19832,0,0,0-4.87-1.8h-216a17.50959,17.50959,0,0,0-3.94,1.3C6,3.11,5.71,3.29,5.42,3.46Zm2.61-1.8H4.16L-.05,5.86V8.57A11.37376,11.37376,0,0,1,4.21,3.5V3.46h.07A15.98212,15.98212,0,0,1,8.03,1.66Z"></path><path fill="#FEFEFE" d="M236.62,10.51V359.38a10.58242,10.58242,0,0,1-4.28,6.27H4.25a10.67983,10.67983,0,0,1-4.3-6.3V10.48A10.50987,10.50987,0,0,1,4.23,4.21H232.31A10.73922,10.73922,0,0,1,236.62,10.51Z"></path></svg>
+            </div>
+            <div>
+                <img src="./images/border-svg/saving-throws-border-general.svg" alt="saving-throws-border-general">
             </div>
             <h2>SAVING THROWS <img src="./images/other-svg/gear-grey.svg" alt="edit senses"></h2>
             <div>
@@ -241,7 +270,6 @@
             </div>
         </section>
 
-
         <!-- SECTION 6 - SENSES & PASSIVE WIS/INT -->
         <section>
             <div> 
@@ -251,6 +279,11 @@
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.625 10.27083" class="ddbc-svg ddbc-beveled-edge-corner-svg "><path fill="#C53131" d="M236.61517,5.86462v2.707a11.33993,11.33993,0,0,0-4.256-5.07v-.046h-.071a16.08764,16.08764,0,0,0-3.756-1.799h3.876Zm-4.207,362.337h-3.876a16.00871,16.00871,0,0,0,3.756-1.799h.071v-.045a11.34783,11.34783,0,0,0,4.256-5.071v2.707Zm-232.457-4.208v-2.707a11.34832,11.34832,0,0,0,4.256,5.071v.045h.071a16.01053,16.01053,0,0,0,3.756,1.799h-3.875Zm10.354,4.208a17.36725,17.36725,0,0,1-4.873-1.799h225.717c-.297.167-.579.344-.898.496a17.88761,17.88761,0,0,1-3.94,1.303Z"></path><path fill="#C53131" d="M237.99,5.29V364.56l-5.01,5.02H3.59l-5.01-5.02V5.29L3.59.28H232.98Zm-1.37,354.09V10.51a10.73922,10.73922,0,0,0-4.31-6.3H4.23A10.50987,10.50987,0,0,0-.05,10.48V359.35a10.67983,10.67983,0,0,0,4.3,6.3H232.34A10.58242,10.58242,0,0,0,236.62,359.38ZM5.42,3.46H231.13a17.19832,17.19832,0,0,0-4.87-1.8h-216a17.50959,17.50959,0,0,0-3.94,1.3C6,3.11,5.71,3.29,5.42,3.46Zm2.61-1.8H4.16L-.05,5.86V8.57A11.37376,11.37376,0,0,1,4.21,3.5V3.46h.07A15.98212,15.98212,0,0,1,8.03,1.66Z"></path><path fill="#FEFEFE" d="M236.62,10.51V359.38a10.58242,10.58242,0,0,1-4.28,6.27H4.25a10.67983,10.67983,0,0,1-4.3-6.3V10.48A10.50987,10.50987,0,0,1,4.23,4.21H232.31A10.73922,10.73922,0,0,1,236.62,10.51Z"></path></svg>
             </div>
+
+            <div>
+                <img src="./images/border-svg/saving-throws-border-general.svg" alt="saving-throws-border-general">
+            </div>
+
             <h2>SENSES <img src="./images/other-svg/gear-grey.svg" alt="edit senses"> </h2>
             <div>
                 <div>
@@ -276,6 +309,7 @@
                 </div>
             </div>
             <p>Darkvision 60 ft.</p>
+
             <div> 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.625 10.27083" class="ddbc-svg ddbc-beveled-edge-corner-svg "><path fill="#C53131" d="M236.61517,5.86462v2.707a11.33993,11.33993,0,0,0-4.256-5.07v-.046h-.071a16.08764,16.08764,0,0,0-3.756-1.799h3.876Zm-4.207,362.337h-3.876a16.00871,16.00871,0,0,0,3.756-1.799h.071v-.045a11.34783,11.34783,0,0,0,4.256-5.071v2.707Zm-232.457-4.208v-2.707a11.34832,11.34832,0,0,0,4.256,5.071v.045h.071a16.01053,16.01053,0,0,0,3.756,1.799h-3.875Zm10.354,4.208a17.36725,17.36725,0,0,1-4.873-1.799h225.717c-.297.167-.579.344-.898.496a17.88761,17.88761,0,0,1-3.94,1.303Z"></path><path fill="#C53131" d="M237.99,5.29V364.56l-5.01,5.02H3.59l-5.01-5.02V5.29L3.59.28H232.98Zm-1.37,354.09V10.51a10.73922,10.73922,0,0,0-4.31-6.3H4.23A10.50987,10.50987,0,0,0-.05,10.48V359.35a10.67983,10.67983,0,0,0,4.3,6.3H232.34A10.58242,10.58242,0,0,0,236.62,359.38ZM5.42,3.46H231.13a17.19832,17.19832,0,0,0-4.87-1.8h-216a17.50959,17.50959,0,0,0-3.94,1.3C6,3.11,5.71,3.29,5.42,3.46Zm2.61-1.8H4.16L-.05,5.86V8.57A11.37376,11.37376,0,0,1,4.21,3.5V3.46h.07A15.98212,15.98212,0,0,1,8.03,1.66Z"></path><path fill="#FEFEFE" d="M236.62,10.51V359.38a10.58242,10.58242,0,0,1-4.28,6.27H4.25a10.67983,10.67983,0,0,1-4.3-6.3V10.48A10.50987,10.50987,0,0,1,4.23,4.21H232.31A10.73922,10.73922,0,0,1,236.62,10.51Z"></path></svg>
                 
@@ -283,7 +317,150 @@
                 
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.625 10.27083" class="ddbc-svg ddbc-beveled-edge-corner-svg "><path fill="#C53131" d="M236.61517,5.86462v2.707a11.33993,11.33993,0,0,0-4.256-5.07v-.046h-.071a16.08764,16.08764,0,0,0-3.756-1.799h3.876Zm-4.207,362.337h-3.876a16.00871,16.00871,0,0,0,3.756-1.799h.071v-.045a11.34783,11.34783,0,0,0,4.256-5.071v2.707Zm-232.457-4.208v-2.707a11.34832,11.34832,0,0,0,4.256,5.071v.045h.071a16.01053,16.01053,0,0,0,3.756,1.799h-3.875Zm10.354,4.208a17.36725,17.36725,0,0,1-4.873-1.799h225.717c-.297.167-.579.344-.898.496a17.88761,17.88761,0,0,1-3.94,1.303Z"></path><path fill="#C53131" d="M237.99,5.29V364.56l-5.01,5.02H3.59l-5.01-5.02V5.29L3.59.28H232.98Zm-1.37,354.09V10.51a10.73922,10.73922,0,0,0-4.31-6.3H4.23A10.50987,10.50987,0,0,0-.05,10.48V359.35a10.67983,10.67983,0,0,0,4.3,6.3H232.34A10.58242,10.58242,0,0,0,236.62,359.38ZM5.42,3.46H231.13a17.19832,17.19832,0,0,0-4.87-1.8h-216a17.50959,17.50959,0,0,0-3.94,1.3C6,3.11,5.71,3.29,5.42,3.46Zm2.61-1.8H4.16L-.05,5.86V8.57A11.37376,11.37376,0,0,1,4.21,3.5V3.46h.07A15.98212,15.98212,0,0,1,8.03,1.66Z"></path><path fill="#FEFEFE" d="M236.62,10.51V359.38a10.58242,10.58242,0,0,1-4.28,6.27H4.25a10.67983,10.67983,0,0,1-4.3-6.3V10.48A10.50987,10.50987,0,0,1,4.23,4.21H232.31A10.73922,10.73922,0,0,1,236.62,10.51Z"></path></svg>
             </div>
+
         </section>
+
+        <!-- SECTION 7 - PROFICIENCIES & LANGUAGES (HIDDEN UNTILL 768px)-->
+        <section>
+            <div>
+                <img src="./images/border-svg/prof-lang-border.svg" alt="proficiencies and languages">
+            </div>
+            <div>
+                <div>
+                    <h2>PROFICIENCIES &amp; LANGUAGES <img src="./images/other-svg/gear-grey.svg" alt="edit proficiencies and languages"> </h2>
+
+                    <div>
+                        <h3>ARMOR</h3>
+                        <p>Light Armor</p>
+                    </div>
+                    <div>
+                        <h3>WEAPONS</h3>
+                        <p>Crossbow, Hand, Longsword, Rapier, Shortsword, Simple Weapons</p>
+                    </div>
+                    <div>
+                        <h3>TOOLS</h3>
+                        <p>Disguise Kit, Flute, Lute, Lyre, Viol</p>
+                    </div>
+                    <div>
+                        <h3>LANGUAGES</h3>
+                        <p>Common, Infernal</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 8 - SKILLS (HIDDEN UNTILL 768px)-->
+        <section>
+            <div>
+                <img src="./images/border-svg/skills-border.svg" alt="skills">
+            </div>
+            <div>
+                <div>
+                    <h2>SKILLS <img src="./images/other-svg/gear-grey.svg" alt="edit proficiencies and languages"> </h2>
+
+                    <div>
+                        <h3>MOD</h3>    
+                        <h3>SKILL</h3>    
+                        <h3>BONUS</h3>    
+                    </div>
+
+                    <div>
+                        <h3>DEX</h3>
+                        <p>Acrobatics</p>
+                        <p><span>+</span>5</p>
+                    </div>
+                    <div>
+                        <h3>WIS</h3>
+                        <p>Animal Handling</p>
+                        <p><span>+</span>2</p>
+                    </div>
+                    <div>
+                        <h3>INT</h3>
+                        <p>Arcana</p>
+                        <p><span>+</span>4</p>
+                    </div>
+                    <div>
+                        <h3>STR</h3>
+                        <p>Athletics</p>
+                        <p><span>+</span>1</p>
+                    </div>
+                    <div>
+                        <h3>CHA</h3>
+                        <p>Deception</p>
+                        <p><span>+</span>6</p>
+                    </div>
+                    <div>
+                        <h3>INT</h3>
+                        <p>History</p>
+                        <p><span>+</span>4</p>
+                    </div>
+                    <div>
+                        <h3>WIS</h3>
+                        <p>Insight</p>
+                        <p><span>+</span>2</p>
+                    </div>
+                    <div>
+                        <h3>CHA</h3>
+                        <p>Intimidation</p>
+                        <p><span>+</span>5</p>
+                    </div>
+                    <div>
+                        <h3>INT</h3>
+                        <p>Investigation</p>
+                        <p><span>+</span>3</p>
+                    </div>
+                    <div>
+                        <h3>WIS</h3>
+                        <p>Medicine</p>
+                        <p><span>+</span>2</p>
+                    </div>
+                    <div>
+                        <h3>INT</h3>
+                        <p>Nature</p>
+                        <p><span>+</span>3</p>
+                    </div>
+                    <div>
+                        <h3>WIS</h3>
+                        <p>Perception</p>
+                        <p><span>+</span>2</p>
+                    </div>
+                    <div>
+                        <h3>CHA</h3>
+                        <p>Performance</p>
+                        <p><span>+</span>6</p>
+                    </div>
+                    <div>
+                        <h3>CHA</h3>
+                        <p>Persuasion</p>
+                        <p><span>+</span>8</p>
+                    </div>
+                    <div>
+                        <h3>INT</h3>
+                        <p>Religion</p>
+                        <p><span>+</span>3</p>
+                    </div>
+                    <div>
+                        <h3>DEX</h3>
+                        <p>Sleight of Hand</p>
+                        <p><span>+</span>5</p>
+                    </div>
+                    <div>
+                        <h3>DEX</h3>
+                        <p>Stealth</p>
+                        <p><span>+</span>7</p>
+                    </div>
+                    <div>
+                        <h3>WIS</h3>
+                        <p>Survival</p>
+                        <p><span>+</span>2</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
     </main>
 
     <script src="scripts/script.js"></script>
