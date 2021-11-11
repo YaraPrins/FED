@@ -43,6 +43,8 @@ a {
   text-decoration: none;
 }
 
+/* Animation Text */
+
 @keyframes rainbow-hover {
   0%, 10% { color: red; }
   20% { color: orange; }
@@ -55,6 +57,8 @@ a {
 .rainbow-wizard:hover {
   animation: rainbow-hover 1s linear infinite;
 }
+
+/* Animation Img */
 
 @keyframes rainbow-image {
   0% { filter: hue-rotate(0); }
@@ -2022,6 +2026,17 @@ header > div nav button {
   display: none;
 } 
 
+/*
+======================
+======================
+===== SECTION 9 ======
+======================
+======================
+*/
+
+.page2 main section:nth-of-type(9) {
+  display: none;
+} 
 
 /* 
 ========================================================================
@@ -2316,7 +2331,6 @@ header > div nav button {
   grid-template-rows: 1fr;
   gap: 1rem 4rem;
   justify-self: center;
-
 
   grid-column: 1 / 3;
   grid-row: 4 / 5;
@@ -2640,15 +2654,310 @@ header > div nav button {
 
 @media (min-width: 1024px) {
   .page2 main {
-    /* background-color: #aaa; */
-    /* background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,1)), url(../images/img-gen/background-charPage.jpeg);
+    background-image: url(../images/img-gen/background-charPage.jpeg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position-y: 4.5rem;
-    display: grid; */
-    grid-template-columns: 1fr 1fr;
+    background-size: 140%;
+    background-position-y: 5.5rem;
+    background-position-x: -13.5rem;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 5.5625rem 8.1875rem 1.6875rem 9.25rem 12.5rem 12.5rem 21.275rem;
     gap: 1rem 0;
+    
     padding-bottom: 3rem;
+    overflow-x: hidden;
   }
+
+
+   /*
+  ===============================
+  ===============================
+  ===== GRID LAYOUT 1024px ======
+  ===============================
+  ===============================
+  */
+
+  .page2 main section:nth-of-type(1) {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+  }
+
+  .page2 main section:nth-of-type(2)  {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+  }
+
+  .page2 main section:nth-of-type(3) {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+  }
+
+  .page2 main section:nth-of-type(4) {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+  }
+
+  .page2 main section:nth-of-type(5) {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+
+  .page2 main section:nth-of-type(6) {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+
+  .page2 main section:nth-of-type(7) {
+    grid-column: 1 / 2;
+    grid-row: 7 / 8;
+  } 
+
+  .page2 main section:nth-of-type(8) {
+    grid-column: 2 / 3;
+    grid-row: 5 / 8;
+  } 
+
+
+  /*
+  ======================
+  ======================
+  ===== SECTION 9 ======
+  ======================
+  ======================
+  */
+
+  /* Algemeen + Background */
+
+  .page2 main section:nth-of-type(9) {
+    display: block;
+    position: relative;
+    width: 32.3125rem;
+    height: 41.25rem;
+    margin-right: 5rem;
+
+    grid-column: 3 / 4;
+    grid-row: 5 / 8;
+  } 
+  
+  .page2 main section:nth-of-type(9) > div:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .page2 main section:nth-of-type(9) > div:first-of-type img {
+    height: 41.25rem;
+    transform: scaleX(0.83);
+    transform-origin: left;
+  }
+
+
+  /* Content */
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) {
+    position: absolute;
+  }
+
+  /* Eerste Balk */
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:first-of-type {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+    padding: 0 1.5rem 0 0.3rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div h2 {
+    font-size: 0.75rem;
+    font-family: var(--fontRobCon);
+    text-transform: uppercase;
+    margin: 0.8rem 0 0.5rem;
+    color: #838383;
+  }
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div h2:hover {
+    color: #000;
+    cursor: pointer;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div h2:first-of-type {
+    border-bottom: 0.1875rem solid #c53131;
+    font-weight: 700;
+    color: #000;
+  }
+
+  /* Tweede Balk (buttons) */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) {
+    margin: 0.5rem 1rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) button {
+    color: #838383;
+    background-color: #f2f2f2;
+    border: none;
+    font-weight: 700;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    border-radius: 0.1875rem;
+    padding: 0.3125rem 0.4375rem;
+  }
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) button:hover {
+    color: #f2f2f2;
+    background-color: #5d5d5d;
+    cursor: pointer;
+  }
+
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) button:first-of-type {
+    color: #fff;
+    background-color: #c53131;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(2) button:hover:first-of-type {
+    background-color: #9c2727;
+  }
+
+/* Actions styling general */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) {
+    margin: 1rem;
+  }
+
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) div:nth-of-type(3) img {
+    max-width: 1rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div img,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div p {
+    margin: 0 0.5rem;
+  }
+
+    /* Kopje ACTIONS Attacks per Action */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(1) {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 0.625rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(1) h3 {
+    font-size: 0.8125rem;
+    color: #c53131;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: var(--fontRobCon);
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(1) h3 span {
+    font-weight: 400;
+    color: #000;
+    text-transform: none;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(1) p {
+    font-size: 0.625rem;
+    color: #c53131;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+
+    /* Kopjes Attack, Range, Hit/DC, Damage, Notes */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(2) {
+    margin: 0 2.5rem;
+    display: grid;
+    grid-template-columns: 8.75rem 3.4375rem 3.4375rem 5rem 6.1875rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(2) h3 {
+    font-family: var(--fontRobCon);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.3125rem 0;
+  }
+
+    /* Attack Options Content */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(3),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(4),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(5),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(6),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(7),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(8) {
+    display: grid;
+    grid-template-columns: 1.8rem 8rem 3.5375rem 2.4375rem 4.4rem 5.1875rem;
+    gap: 0;
+    max-width: 28.5rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(3) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(4) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(5) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(6) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(7) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(8) p {
+    font-size: 0.875rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(3) p span,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(4) p span,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(5) p span,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(6) p span,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(7) p span,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(8) p span {
+    font-size: 0.625rem;
+    color: #838383;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(3) p:last-of-type,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(4) p:last-of-type,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(5) p:last-of-type,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(6) p:last-of-type,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(7) p:last-of-type,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(3) div:nth-of-type(8) p:last-of-type {
+    font-size: 0.5rem;
+    color: #838383;
+    margin: 0.2rem 0;
+    padding: 0;
+  }
+
+  /* Kopje Actions in Combat & Unarmed Strike */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(4),
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(5) {
+    margin: 1rem;
+    max-width: 28rem;
+  }
+
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(4) h4,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(5) h4 {
+    font-size: 0.8125rem;
+    margin-bottom: 0.3rem;
+  }
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(4) p,
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(5) p {
+    font-size: 0.75rem;
+    font-family: var(--fontRob);
+  }
+
+  /* Tekst Actions in Combat */
+  .page2 main section:nth-of-type(9) > div:nth-of-type(2) > div:nth-of-type(4) p {
+    padding: 0.5rem;
+    border-left: 0.1875rem solid #d8d8d8;
+    line-height: 1.4;
+  }
+
+
 }

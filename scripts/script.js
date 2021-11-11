@@ -6,7 +6,8 @@ var header = document.querySelector("header > div div");
 var hamburgerIcon = document.querySelector("header > div div div");
 var main = document.querySelector("main");
 var rainbowTrigger = document.querySelector("header div nav ul li:nth-of-type(10) img");
-var liHoverRainbow = document.querySelectorAll(".rainbow");
+var liTextHoverRainbow = document.querySelectorAll(".rainbow");
+var liImgHoverRainbow = document.querySelectorAll(".rainbow-img");
 
 
 function navMobOpen() {
@@ -24,14 +25,20 @@ function navMobClose() {
 
 function rainbowTriggerClicked() {
     rainbowTrigger.style.opacity = "1";
-    liHoverRainbow.forEach(li => {
-        li.classList.add("rainbow-wizard");
+    liTextHoverRainbow.forEach(a => {
+        a.classList.add("rainbow-wizard");
+    })
+    liImgHoverRainbow.forEach(li => {
+        li.classList.add("rainbow-wizard-img");
     })
 }
 function rainbowTriggerDBLClicked() {
     rainbowTrigger.style.opacity = "";
-    liHoverRainbow.forEach(li => {
-        li.classList.remove("rainbow-wizard");
+    liTextHoverRainbow.forEach(a => {
+        a.classList.remove("rainbow-wizard");
+    })
+    liImgHoverRainbow.forEach(li => {
+        li.classList.remove("rainbow-wizard-img");
     })
 }
 
