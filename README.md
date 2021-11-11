@@ -216,6 +216,12 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
  <summary>uitwerken voor herkansing</summary>
  
  ### Stand van zaken
+ Na weken hard ploegen, een verloren bestanden map die ik perongeluk verwijderd had en dus twee dagen aan code kwijt was en vele frustraties verder, is het me eindelijk gelukt om een prachtig eindresultaat neer te zetten waar ik ontzettend trots op ben.
+ Ik heb nog heel wat werk verricht en zelfs nog leuke verrassingen kunnen toevoegen!
+ 
+ Ik weet alleen van mezelf dat ik vaak echt niet weet wanneer ik moet stoppen, aangezien ik vrij perfectionistisch ben aangelegd en graag nog veel hier aan zou willen werken.
+ Uiteindelijk moest ik vanmezelf wel stoppen en er een einde aan breien haha, al had ik er vast nog veel meer aan kunnen werken, ik ben trots op wat ik heb kunnen maken!
+ Nu nog hopen dat GitHub meewerkt voor mijn mondeling haha!
  
 </details>
 
